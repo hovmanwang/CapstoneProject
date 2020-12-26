@@ -1,21 +1,21 @@
 # CapstoneProject
-Project Motivation Open Source has been around for a while and people who contribute to Open Source (a.k.a Open Sourcers) are key to the successful maintenance of the ecosystem of Open Source. This project sets out to investigate the characterstics of Open Sourcers. This is for the first Project under the Advanced Data Scientist Nanodegree - Write a Data Science Blog
+Project Motivation This is the final capstone project for Udacity Data Scientist nanodegree. I have chosen the Starbucks Project. This project is about the offers Starbucks have given to some customers who have registered on the Starbucks App. Some customers will complete the offers they receive, while some will not. From the Starbucks' perspective, not only will a incomplete offer result in lower income/profit, it will also include an unnecessary cost in the generation and provision of the offer to the customer. Therefore we have performed this analysis in hope to help Starbucks understand the drivers for offer completion, and in turn help the company enhance the offer performance.
 
-Full article can be found here:https://medium.com/@hovmanhefuwang/who-are-the-open-sourcers-600274febde
+Questions we intend to answer:
 
-Questions intending to answer:
+Which type of customers, in terms of their demographics such as age etc, are most responsive towards offers? 
 
-Education: does Higher Education Degrees (B.A. and above) make a person more likely to become an Open Source contributor?
+Does there exist any customer/offer combination that performs particularly well in terms of completion rate?
 
-Coding as a Hobby: if you code for fun, are you coding as an Open Source Contributor too?
+What kind of offers are best received by the customers?
 
-Coding experience: more years of coding leads to more chances of contributing?
 
-Employment Status: being employed might give you more financial security and peace of mind, but simultaneously less time to be an Open Sourcer — so which effect is more predominant?
+Ultimately, the most important question: what recommendations can be provided, based on our analysis, for Starbucks to leverage on and improve its offers' performance?
 
-Salary: does making more money drive more active contribution as an Open Sourcer?
 
-Gender: do men or women like it more?
+
+Full article can be found here:https://medium.com/@hovmanhefuwang/ive-received-an-offer-from-starbucks-but-will-you-use-it-36fd38e9397c
+
 
 Requirements The project should run with libraries included in the Anaconda distribution. Following main libraries have been used:
 
@@ -29,18 +29,19 @@ seaborn 0.10.1
 
 matplotlib 3.2.1
 
+sklearn 0.24.0
+
+
 Files in the Repository
 
-Hovman Wang Project 1.ipynb - first version of code (initial review)
+Starbucks_Capstone_notebook_HW.ipynb - final version of the ipynb file. All of the working is included. So are the graphs and tables. I have also put in a lot of narrative in preparation for the medium post.
 
-Hovman Wang Project 1 updated 26052020 - second version of code: key changes:1. use of Doctrings for functions or where necessary 2. Use of Markdown cells to make section headings. No major changes to content of code
+data directory - the 3 files provided by Udacity/Starbucks: portfolio, profile, transcript
 
-data directory - i have not uploaded into this depository purely because of size, but the data can be located here: https://insights.stackoverflow.com/survey 2019 survey data used for Project
+images directory - the charts we have generated and put into the Medium post. These are visible in the ipynb file as well.
 
-images directory gender, age, emp (for employment), hobby, years (for years of coding), Salary - each respond to a question above that we are trying to answer
+Results: Full article can be found here:https://medium.com/@hovmanhefuwang/ive-received-an-offer-from-starbucks-but-will-you-use-it-36fd38e9397c
 
-Results: Full article can be found here:https://medium.com/@hovmanhefuwang/who-are-the-open-sourcers-600274febde
-
-Acknowledgements: The data for the project is available on Stack Overflow and was prepared/manipulated/cleaned/structured by Hovman Hefu Wang. The original source is 2019 Stack Overflow survey data https://insights.stackoverflow.com/survey.
+Acknowledgements: The 3 raw datasets, portolio, profile and transcript, were prepared and made available by Udacity through collaboration with Starbucks.
 
 Thanks to Udacity for a great project and I look forward to the next few ones.
