@@ -34,11 +34,11 @@ sklearn 0.24.0
 
 Files in the Repository
 
-Starbucks_Capstone_notebook_HW.ipynb - final version of the ipynb file. All of the working is included. So are the graphs and tables. I have also put in a lot of narrative in preparation for the medium post.
+Starbucks_Capstone_notebook_HW.ipynb - final version of the ipynb file. All of the working is included. So are the graphs and tables. I have also put in a lot of narrative in preparation for the Medium post.
 
 data directory - the 3 files provided by Udacity/Starbucks: portfolio, profile, transcript
 
-images directory - the charts we have generated and put into the Medium post. These are visible in the ipynb file as well.
+graphs directory - the charts we have generated and put into the Medium post. These are visible in the ipynb file as well.
 
 Results: Full article can be found here:https://medium.com/@hovmanhefuwang/ive-received-an-offer-from-starbucks-but-will-you-use-it-36fd38e9397c
 
